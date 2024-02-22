@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlightPool</title>
+
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__left">
+                <div class="header__left--logo">
+                    <a href="./index.html" class="test-0-logo">FlightPool</a>
+                </div>
+
+                <div class="header__left--menu">
+                    <ul>
+                        <li>
+                            <a href="/search.html" class="test-0-nav-2">Search</a>
+                        </li>
+                        <li>
+                            <a href="#promotions" class="test-0-nav-1">Promotions</a>
+                        </li>
+                        <li>
+                            <a href="#about-us" class="test-0-nav-custom">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__right">
+                <a href="/booking.html" class="test-0-nav-3 button button-filled">Check-in for the flight</a>
+                <a href="/login.html" class="test-0-nav-4 button button-outlined">Personal Account</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="search search-second-page" id="search">
+            <!-- empty h1 to match seo checks !-->
+            <h1></h1>
+
+            <div class="container">
+
+                <div class="search__content">
+                    <div class="search__container--filter">
+                        <button class="button button-filled">Economy</button>
+                        <button class="button button-outlined">Business Class</button>
+                        <button class="button button-outlined">First Class</button>
+                    </div>
+
+                    <div class="search__container--rows">
+                        <div class="search__container--row">
+                            <div class="search__container--departure">
+                                <div class="search__container--departure--block">
+                                    <label for="from-city">From</label>
+                                    <input type="text" id="from-city" value="Almaty" class="form-control test-0-fd" placeholder="City, ex. Almaty" />
+                                    <span>Almaty International Airport</span>
+                                </div>
+
+                                <div class="search__container--departure--block">
+                                    <label for="to-city">To</label>
+                                    <input type="text" id="to-city" value="Astana" class="form-control test-0-fa" placeholder="City, ex. Almaty" />
+                                    <span>Nur-Sultan International Airport</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="search__container--row">
+                            <div class="search__container--form">
+                                <form action="#" method="post">
+                                    <div class="search__container--form--block">
+                                        <label for="there">There</label>
+                                        <input type="date" id="there" placeholder="Date" class="test-0-fdt">
+                                    </div>
+
+                                    <div class="search__container--form--block">
+                                        <label for="back">Back</label>
+                                        <input type="date" id="back" placeholder="Date" class="test-0-fat">
+                                    </div>
+
+                                    <div class="search__container--form--block">
+                                        <label for="passengers">Passengers</label>
+                                        <input type="number" id="passengers" value="1" min="1" max="8"
+                                               class="form-control test-0-fnp"/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-list">
+            <div class="container">
+                <div class="search-list__card">
+                    <div class="search-list__card--left">
+                        <b class="test-4-fp">340$</b>
+                        <button class="button button-outlined">
+                            Select ticket
+                        </button>
+                    </div>
+
+                    <div class="search-list__card--right">
+                        <div class="search-list__card--title">
+                            <b class="test-4-fn">F-1234</b>
+                            <span class="test-4-at">Bombardier CRJ200</span>
+                        </div>
+
+                        <div class="search-list__card--row">
+                            <div class="search-list__card--row--block">
+                                <span class="test-4-dd">21.02.2024</span>
+                                <b class="test-4-dt">00:00</b>
+                                <small>NQZ</small>
+                            </div>
+
+                            <div class="search-list__card--row--block">
+                                <span class="test-4-dd">22.02.2024</span>
+                                <b class="test-4-dt">00:00</b>
+                                <small>ALA</small>
+                            </div>
+                        </div>
+
+                        <div class="search-list__card--footer">
+                            <span>Departure chance</span>
+                            <div class="search-list__card--footer--percentage">
+                                <div class="search-list__card--probability probability-orange"></div>
+                                <div class="search-list__card--footer-percentage">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-list__card">
+                    <div class="search-list__card--left">
+                        <b class="test-4-fp">100$</b>
+                        <button class="button button-outlined">
+                            Select ticket
+                        </button>
+                    </div>
+
+                    <div class="search-list__card--right">
+                        <div class="search-list__card--title">
+                            <b class="test-4-fn">F-500</b>
+                            <span class="test-4-at">Bombardier CRJ200</span>
+                        </div>
+
+                        <div class="search-list__card--row">
+                            <div class="search-list__card--row--block">
+                                <span class="test-4-dd">23.02.2024</span>
+                                <b class="test-4-dt">00:00</b>
+                                <small>ALA</small>
+                            </div>
+
+                            <div class="search-list__card--row--block">
+                                <span class="test-4-dd">24.02.2024</span>
+                                <b class="test-4-dt">00:00</b>
+                                <small>NQZ</small>
+                            </div>
+                        </div>
+
+                        <div class="search-list__card--footer">
+                            <span>Departure chance</span>
+                            <div class="search-list__card--footer--percentage">
+                                <div class="search-list__card--probability probability-red"></div>
+                                <div class="search-list__card--footer-percentage">20%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-list__card">
+                    <div class="search-list__card--left">
+                        <b class="test-4-fp">555$</b>
+                        <button class="button button-outlined">
+                            Select ticket
+                        </button>
+                    </div>
+
+                    <div class="search-list__card--right">
+                        <div class="search-list__card--title">
+                            <b class="test-4-fn">F-124782</b>
+                            <span class="test-4-at">Bombardier CRJ200</span>
+                        </div>
+
+                        <div class="search-list__card--row">
+                            <div class="search-list__card--row--block">
+                                <span class="test-4-dd">26.02.2024</span>
+                                <b class="test-4-dt">00:00</b>
+                                <small>NQZ</small>
+                            </div>
+
+                            <div class="search-list__card--row--block">
+                                <span class="test-4-dd">27.02.2024</span>
+                                <b class="test-4-dt">00:00</b>
+                                <small>ALA</small>
+                            </div>
+                        </div>
+
+                        <div class="search-list__card--footer">
+                            <span>Departure chance</span>
+                            <div class="search-list__card--footer--percentage">
+                                <div class="search-list__card--probability probability-green"></div>
+                                <div class="search-list__card--footer-percentage">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer__overlay"></div>
+
+        <div class="container">
+            <div class="footer__info">
+                <span>FlightPool</span>
+                <p>We bring cities closer, you live where you want.
+                    Accumulate more than 50% of your flight bookings.</p>
+            </div>
+
+            <div class="footer__menu">
+                <div class="footer__menu--block">
+                    <b>Explore</b>
+
+                    <ul>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru">Home</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/login">Login</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/signup">Sign up</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/news">News</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/return">Return</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/feedback">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__subscribe">
+                <form action="#" method="post">
+                    <div class="subscribe__form--input">
+                        <label>
+                            <input type="email" placeholder="E-mail" class="form-control" />
+                        </label>
+                    </div>
+
+                    <button type="submit" class="button-filled button">Subscribe</button>
+                </form>
+
+                <span>By subscribing to our news, you agreed to sell your soul for our Project Management</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
