@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlightPool</title>
+
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__left">
+                <div class="header__left--logo">
+                    <a href="./index.html" class="test-0-logo">FlightPool</a>
+                </div>
+
+                <div class="header__left--menu">
+                    <ul>
+                        <li>
+                            <a href="/search.html" class="test-0-nav-2">Search</a>
+                        </li>
+                        <li>
+                            <a href="#promotions" class="test-0-nav-1">Promotions</a>
+                        </li>
+                        <li>
+                            <a href="#about-us" class="test-0-nav-custom">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__right">
+                <button class="test-0-nav-3 button button-filled">Check-in for the flight</button>
+                <button class="test-0-nav-4 button button-outlined">Personal Account</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="accumulation">
+        <div class="accumulation__left">
+            <h1>We bring cities closer, you live where you want.</h1>
+            <h2>Accumulate more than 50% of your flight bookings.</h2>
+
+            <div class="accumulation__demo">
+                <div class="accumulation__demo--heading">
+                </div>
+
+                <div class="accumulation__demo--blocks">
+                    <div class="accumulation__demo--block">
+                        <b>chance of departure</b>
+                        <span id="accumulation-departure-chance">1000%</span>
+                    </div>
+
+                    <div class="accumulation__demo--block">
+                        <b>dollars accumulated</b>
+                        <span id="accumulation-saved-money">5800</span>
+                    </div>
+                </div>
+
+                <div class="accumulation__demo--form">
+                    <form action="#" id="accumulation-demo-form">
+                        <div class="accumulation__demo--form--block">
+                            <label for="accumulation-there">There</label>
+                            <input type="date" id="accumulation-there" placeholder="Date" class="test-0-fdt">
+                        </div>
+
+                        <div class="accumulation__demo--form--block">
+                            <label for="accumulation-back">Back</label>
+                            <input type="date" id="accumulation-back" placeholder="Date" class="test-0-fdt">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="accumulation__right">
+            <img src="./images/main-bg.jpg" alt="main-bg">
+        </div>
+    </section>
+
+
+    <section class="search" id="search">
+        <div class="container">
+
+            <div class="search__content">
+                <div class="search__container--filter">
+                    <button class="button button-filled">Economy</button>
+                    <button class="button button-outlined">Business Class</button>
+                    <button class="button button-outlined">First Class</button>
+                </div>
+
+                <div class="search__container--rows">
+                    <div class="search__container--row">
+                        <div class="search__container--departure">
+                            <div class="search__container--departure--block">
+                                <label for="from-city">From</label>
+                                <input type="text" id="from-city" class="form-control test-0-fd" placeholder="City, ex. Almaty" />
+                                <span>Almaty International Airport</span>
+                            </div>
+
+                            <div class="search__container--departure--block">
+                                <label for="to-city">To</label>
+                                <input type="text" id="to-city" class="form-control test-0-fa" placeholder="City, ex. Almaty" />
+                                <span>Nur-Sultan International Airport</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search__container--row">
+                        <div class="search__container--form">
+                            <form action="#" method="post">
+                                <div class="search__container--form--block">
+                                    <label for="there">There</label>
+                                    <input type="date" id="there" placeholder="Date" class="test-0-fdt">
+                                </div>
+
+                                <div class="search__container--form--block">
+                                    <label for="back">Back</label>
+                                    <input type="date" id="back" placeholder="Date" class="test-0-fat">
+                                </div>
+
+                                <div class="search__container--form--block">
+                                    <label for="passengers">Passengers</label>
+                                    <input type="number" id="passengers" value="1" min="1" max="8"
+                                           class="form-control test-0-fnp"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="/search.html" class="button button-big button-filled test-0-fbs">
+                    Book now
+                </a>
+            </div>
+
+            <div class="search__heading">
+                <h3>Find tickets for your travel and accumulate more than 50% of your flight bookings.</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust">
+        <div class="container">
+            <div class="trust__left">
+                <div class="trust__block">
+                    <img src="./images/airline-staff-never-fat-British-Airways-711420.jpg" alt="3">
+                    <img src="./images/road-trip%20(1).jpg" alt="6">
+                </div>
+
+                <div class="trust__block">
+                    <img src="./images/1-2.jpg" alt="1">
+                    <img src="./images/197152c818f021a2f4db244ec5328487.jpg" alt="2">
+                </div>
+
+                <div class="trust__block">
+                    <img src="./images/airline-staff-never-fat-British-Airways-711420.jpg" alt="3">
+                    <img src="./images/road-trip%20(1).jpg" alt="6">
+                </div>
+            </div>
+
+            <div class="trust__middle">
+                <div class="trust__heading">Trust us</div>
+
+                <div class="trust__content">
+                    <div class="trust__content--text">
+                        Three principles should be visualized using animated infographics based
+                        on the visitor's input from the demo. For example, choosing a conditional date,
+                        entering the number of bookings and demonstrating changes in cost
+                        and probability(chance) of departure.
+                    </div>
+
+                    <div class="trust__content--button">
+                        <span>Scroll to get promotions</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trust__right">
+                <div class="trust__block">
+                    <img src="./images/airline-staff-never-fat-British-Airways-711420.jpg" alt="3">
+                    <img src="./images/road-trip%20(1).jpg" alt="6">
+                </div>
+
+                <div class="trust__block">
+                    <img src="./images/1-2.jpg" alt="1">
+                    <img src="./images/197152c818f021a2f4db244ec5328487.jpg" alt="2">
+                </div>
+
+                <div class="trust__block">
+                    <img src="./images/airline-staff-never-fat-British-Airways-711420.jpg" alt="3">
+                    <img src="./images/road-trip%20(1).jpg" alt="6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotions">
+        <div class="container">
+            <div class="promotions__heading">
+                <span>Promotions</span>
+            </div>
+
+            <div class="promotions__list">
+                <div class="promotions__list--card">
+                    <img src="./images/promotions/promotion1.jpg" alt="promotion 1">
+                    <b>Returning and Changing Your Tickets</b>
+                    <p>The pandemic has changed many travelers’ plans, but we know that it will not last forever.
+                        Once all of this is over, we will continue exploring this world the way we used to.
+                        Special rules that have been developed for this challenging situation will help you cancel your trip
+                        or postpone it until later.</p>
+                </div>
+
+                <div class="promotions__list--card">
+                    <img src="./images/promotions/promotion2.jpg" alt="promotion 2">
+                    <b>Best offers</b>
+                    <p>To see again the streets that witnessed so much. To hug your beloved ones and look back to see
+                        what you’ve come through. And to think of new dreams that will be so special!</p>
+                </div>
+
+                <div class="promotions__list--card">
+                    <img src="./images/promotions/promotion3.jpg" alt="promotion 3">
+                    <b>See you more often</b>
+                    <p>Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+                        see your loved ones more often. Choose our company to fly to where you are always expected.</p>
+                </div>
+
+                <div class="promotions__list--card">
+                    <img src="./images/promotions/promotion4.jpg" alt="promotion 4">
+                    <b>Everything is on again</b>
+                    <p>From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
+                        a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__overlay"></div>
+
+        <div class="container">
+            <div class="footer__info">
+                <span>FlightPool</span>
+                <p>We bring cities closer, you live where you want.
+                Accumulate more than 50% of your flight bookings.</p>
+            </div>
+
+            <div class="footer__menu">
+                <div class="footer__menu--block">
+                    <b>Explore</b>
+
+                    <ul>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru">Home</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/login">Login</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/signup">Sign up</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/news">News</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/return">Return</a>
+                        </li>
+                        <li>
+                            <a href="http://xxxxxx-m1.wsr.ru/feedback">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__subscribe">
+                <form action="#" method="post">
+                    <div class="subscribe__form--input">
+                        <label>
+                            <input type="email" placeholder="E-mail" class="form-control" />
+                        </label>
+                    </div>
+
+                    <button type="submit" class="button-filled button">Subscribe</button>
+                </form>
+
+                <span>By subscribing to our news, you agreed to sell your soul for our Project Management</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
