@@ -836,6 +836,7 @@ footer .container {
     border: 1px solid #d8d8d8;
     padding: 16px;
     border-radius: 32px;
+    width: 100%;
 }
 
 .login-page__register {
@@ -1010,4 +1011,326 @@ footer .container {
 
 .seats__item:hover {
     opacity: .6;
+}
+
+/* booking */
+
+.booking {
+    padding: 64px;
+}
+
+.booking__heading h1 {
+    font-size: 48px;
+}
+
+.booking__flights--item {
+    background: #fff;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    border-radius: var(--common-border-radius);
+}
+
+.booking__heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.booking__flights {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.booking .container {
+    max-width: 1655px;
+    margin: 0 auto;
+}
+
+.booking__flights--item--row {
+    display: flex;
+    gap: 64px;
+}
+
+.booking__flights--item--block {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking__flights--item--block .departure-time, .booking__flights--item--block .arrival-time {
+    font-size: 36px;
+}
+
+.booking__flights--item > span {
+    font-size: 17px;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.booking__flights--item--cost {
+    margin-top: 24px;
+    font-size: 26px;
+}
+
+.booking__flights--item--block--row span {
+    font-size: 14px;
+}
+
+.booking__passengers--content h3 {
+    padding-left: 48px;
+    font-size: 36px;
+}
+
+.booking__passengers--content {
+    margin-top: 36px;
+}
+
+.booking__passengers--content form {
+    background: #fff;
+    border-radius: var(--common-border-radius);
+    padding: 60px;
+    display: flex;
+    gap: 24px;
+}
+
+.booking__passengers--item {
+    background: #eee;
+    padding: 37px;
+    border-radius: 32px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    width: 25%;
+}
+
+.booking__passengers {
+    display: flex;
+}
+
+.form-group label {
+    width: 100%;
+}
+
+.form-group label span {
+    margin-bottom: 14px;
+    display: block;
+}
+
+.booking__passengers--add {
+    width: 25%;
+    /* background: #eee; */
+    /* border-radius: 32px; */
+}
+
+.booking__passengers--add button {
+    width: 100%;
+    height: 100%;
+    background: #f7f7f7;
+    border: none;
+    border-radius: 32px;
+    font-size: 85px;
+    transition: opacity .7s ease;
+    cursor: pointer;
+}
+
+.booking__passengers--add button:hover {
+    opacity: .7;
+}
+
+.booking__footer {
+    padding: 55px 64px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.booking__footer span {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+/* booking-management */
+
+.booking-management {
+    padding: 64px;
+}
+
+.booking-management__heading h1 {
+    font-size: 48px;
+}
+
+.booking-management__information {
+    display: flex;
+    gap: 24px;
+}
+
+.booking-management__information-chip {
+    padding: 16px 32px;
+    background: #fff;
+    border-radius: var(--common-border-radius);
+    font-size: 21px;
+}
+
+.booking-management__heading h1 {
+    margin: 0;
+}
+
+.booking-management__heading {
+    margin-bottom: 24px;
+}
+
+.booking-management__flights {
+    margin-top: 40px;
+}
+
+.booking-management__flights h2 {
+    font-size: 31px;
+}
+
+
+.booking-management__flights--list {
+    display: flex;
+    gap: 64px;
+}
+
+.booking-management__flights--item {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-management__flights--item .departure-time, .booking-management__flights--item .arrival-time {
+    font-size: 36px;
+}
+
+.booking-management__flights--item > span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.booking-management__flights--item .aircraft {
+    margin-bottom: 24px;
+    font-size: 15px;
+}
+
+.booking-management__flights--item .number {
+    margin-bottom: 8px;
+}
+
+.booking-management__flights--item--cost {
+    margin-top: 24px;
+    font-size: 26px;
+}
+
+.booking-management__flights--item--block--row span {
+    font-size: 14px;
+}
+
+.booking-management__flights--item {
+    background: #fff;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    border-radius: var(--common-border-radius);
+}
+
+.booking-management__flights--item--row {
+    display: flex;
+    gap: 64px;
+}
+
+.booking-management__flights--item--block {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-management__flights--item .travel-time {
+    margin: 24px 0;
+}
+
+.booking-management__flights--item--footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-management__flights--item--footer--probability {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.booking-management__flights--item--footer--probability span {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.booking-management__flights--item--footer--probability .probability-orange {
+    background: radial-gradient(circle at 10% 20%, rgb(251, 221, 19) 0.1%, rgb(255, 153, 1) 90%);
+}
+
+.booking-management__flights--item--footer--probability  .probability-red {
+    background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
+}
+
+.booking-management__flights--item--footer--probability .probability-green {
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+
+.booking-management__flights--item--footer--probability .probability-red {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.booking-management__passengers h3 {
+    margin: 0 0 24px;
+    font-size: 31px;
+}
+
+.booking-management__passengers {
+    margin-top: 48px;
+}
+
+.booking-management__passengers--list {
+    background: #fff;
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    padding: 36px;
+    border-radius: var(--common-border-radius);
+}
+
+.booking-management__passengers--item {
+    padding: 48px;
+    background: #f7f7f7;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-management__passengers--item--row {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.booking-management__passengers--item--seats ul {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.booking-management__passengers--item--seats .heading {
+    font-size: 25px;
+}
+
+.booking-management__passengers--item--seats {
+    margin: 24px 0;
+}
+
+.booking-management__passengers--item--seats ul li {
+    list-style: none;
 }

@@ -9,7 +9,7 @@
 
     <link href="./css/style.css" rel="stylesheet" />
 </head>
-<body>
+<body class="second-page">
     <header>
         <div class="container">
             <div class="header__left">
@@ -23,23 +23,201 @@
                             <a href="/search.html" class="test-0-nav-2">Search</a>
                         </li>
                         <li>
-                            <a href="#promotions" class="test-0-nav-1">Promotions</a>
+                            <a href="/index.html#promotions" class="test-0-nav-1">Promotions</a>
                         </li>
                         <li>
-                            <a href="#about-us" class="test-0-nav-custom">About us</a>
+                            <a href="/index.html#about-us" class="test-0-nav-custom">About us</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="header__right">
-                <a href="/booking.html" class="test-0-nav-3 button button-filled">Check-in for the flight</a>
+                <a href="/booking_management.html" class="test-0-nav-3 button button-filled">Check-in for the flight</a>
                 <a href="/login.html" class="test-0-nav-4 button button-outlined">Personal Account</a>
             </div>
         </div>
     </header>
 
     <main>
+        <section class="booking">
+            <div class="container">
+                <div class="booking__heading">
+                    <h1>Book your selected flights right now!</h1>
+                </div>
+
+                <div class="booking__flights">
+                    <div class="booking__flights--item">
+                        <span class="test-5-fc">F-500</span>
+
+                        <div class="booking__flights--item--row">
+                            <div class="booking__flights--item--block">
+                                <span class="departure-date test-5-dd">21.02.2024</span>
+                                <b class="departure-time test-5-dt">00:00</b>
+
+                                <div class="booking__flights--item--block--row">
+                                    <span class="test-5-fcity">Nur-Sultan</span> / <span class="test-5-from">NQZ</span>
+                                </div>
+                            </div>
+
+                            <div class="booking__flights--item--block">
+                                <span class="arrival-date">22.02.2024</span>
+                                <b class="arrival-time test-5-at">00:00</b>
+
+                                <div class="booking__flights--item--block--row">
+                                    <span class="test-5-tcity">Almaty</span> / <span class="test-5-to">ALA</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="booking__flights--item--cost">
+                            <b class="test-5-fp">300 $</b>
+                        </div>
+                    </div>
+
+                    <div class="booking__flights--item">
+                        <span class="test-5-fc">F-500</span>
+
+                        <div class="booking__flights--item--row">
+                            <div class="booking__flights--item--block">
+                                <span class="departure-date test-5-dd">21.02.2024</span>
+                                <b class="departure-time test-5-dt">00:00</b>
+
+                                <div class="booking__flights--item--block--row">
+                                    <span class="test-5-fcity">Nur-Sultan</span> / <span class="test-5-from">NQZ</span>
+                                </div>
+                            </div>
+
+                            <div class="booking__flights--item--block">
+                                <span class="arrival-date">22.02.2024</span>
+                                <b class="arrival-time test-5-at">00:00</b>
+
+                                <div class="booking__flights--item--block--row">
+                                    <span class="test-5-tcity">Almaty</span> / <span class="test-5-to">ALA</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="booking__flights--item--cost">
+                            <b class="test-5-fp">300 $</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking__passengers--content">
+                    <h3>Add your passengers to booking. For free.</h3>
+
+                    <form action="#">
+                        <div class="booking__passengers--item">
+                            <div class="form-group">
+                                <label>
+                                    <span>First name</span>
+                                    <input type="text" class="test-5-name" placeholder="Ivan">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Last name</span>
+                                    <input type="text" class="test-5-last" placeholder="Ivanov">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Date of birth</span>
+                                    <input type="date" class="test-5-dob">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Document number</span>
+                                    <input type="text" class="test-5-doc">
+                                </label>
+                            </div>
+
+                            <button type="button" class="test-5-remove button button-outlined">Remove</button>
+                        </div>
+                        <div class="booking__passengers--item">
+                            <div class="form-group">
+                                <label>
+                                    <span>First name</span>
+                                    <input type="text" class="test-5-name" placeholder="Ivan">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Last name</span>
+                                    <input type="text" class="test-5-last" placeholder="Ivanov">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Date of birth</span>
+                                    <input type="date" class="test-5-dob">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Document number</span>
+                                    <input type="text" class="test-5-doc">
+                                </label>
+                            </div>
+
+                            <button type="button" class="test-5-remove button button-outlined">Remove</button>
+                        </div>
+                        <div class="booking__passengers--item">
+                            <div class="form-group">
+                                <label>
+                                    <span>First name</span>
+                                    <input type="text" class="test-5-name" placeholder="Ivan">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Last name</span>
+                                    <input type="text" class="test-5-last" placeholder="Ivanov">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Date of birth</span>
+                                    <input type="date" class="test-5-dob">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span>Document number</span>
+                                    <input type="text" class="test-5-doc">
+                                </label>
+                            </div>
+
+                            <button type="button" class="test-5-remove button button-outlined">Remove</button>
+                        </div>
+
+                        <div class="booking__passengers--add">
+                            <button type="button" class="test-5-add">
+                                +
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="booking__footer">
+                    <span class="test-5-price">500$</span>
+                    <button type="button" class="button button-filled button-big">
+                        Book
+                    </button>
+                </div>
+            </div>
+        </section>
     </main>
 
 
