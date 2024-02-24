@@ -1342,6 +1342,71 @@ footer .container {
     list-style: none;
 }
 
+.booking__flights--item--button {
+    margin-top: 24px;
+}
+
+/* profile */
+
+.profile {
+    padding: 64px;
+}
+
+.profile__heading h1 {
+    font-size: 49px;
+}
+
+.profile__info {
+    display: flex;
+    background: #fff;
+    padding: 48px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+}
+
+.profile__info--left--avatar img {
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.profile__info--left {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.profile .container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.profile__info--left--user b {
+    font-size: 48px;
+}
+
+.profile__info--left--user--bottom span {
+    font-size: 21px;
+}
+
+.profile__info--left--user {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.upcoming {
+    padding: 0 64px 64px;
+}
+
+.upcoming .container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 /* media queries */
 
 @media (max-width: 1240px) {
