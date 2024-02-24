@@ -1111,6 +1111,8 @@ footer .container {
 
 .form-group label {
     width: 100%;
+    display: flex;
+    gap: 8px;
 }
 
 .form-group label span {
@@ -1140,10 +1142,15 @@ footer .container {
 }
 
 .booking__footer {
-    padding: 55px 64px;
+    padding: 48px 64px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 24px;
+    background: #fff;
+    margin: 48px;
+    border-radius: 32px;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .booking__footer span {
@@ -1333,4 +1340,135 @@ footer .container {
 
 .booking-management__passengers--item--seats ul li {
     list-style: none;
+}
+
+/* media queries */
+
+@media (max-width: 1240px) {
+    .accumulation__demo--form form {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .accumulation__demo--blocks {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__left {
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+    }
+
+    header .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .header__left--logo {
+        margin: 0;
+    }
+
+    .accumulation {
+        flex-direction: column;
+    }
+
+    .accumulation__left {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .accumulation__right {
+        display: none;
+    }
+
+    .search__container--rows {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .trust__left {
+        display: none;
+    }
+
+    .trust__right {
+        display: none;
+    }
+
+    .promotions__list--card {
+        width: 100% !important;
+    }
+
+    footer .container {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .footer__menu {
+        justify-content: flex-start;
+    }
+
+    footer {
+        padding: 24px 0;
+    }
+
+    .footer__info {
+        width: 100%;
+    }
+
+    .promotions__heading {
+        margin: 0px;
+    }
+
+    .promotions__heading span {
+        font-size: 37px;
+    }
+}
+
+@media (max-width: 520px) {
+    .search__container--departure {flex-direction: column;}
+
+    .search__container--row {
+        flex-direction: column;
+    }
+
+    .search__container--form form {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .search__container--form {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .search__container--row {flex: 1 0 auto;width: 100%;}
+
+    .search__container--rows {
+    }
+
+    .search__container--form--block {
+        width: 100%;
+    }
+
+    .search__container--filter {
+        flex-direction: column;
+    }
+
+    .search__heading {
+        font-size: 20px;
+    }
+
+    .search {
+        padding: 64px 0;
+    }
+
+    .accumulation__demo--form--block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
